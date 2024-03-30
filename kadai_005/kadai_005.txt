@@ -1,0 +1,40 @@
+
+araji@DESKTOP-5F22K6I MINGW64 ~
+$ mkdir git_challenge
+
+araji@DESKTOP-5F22K6I MINGW64 ~
+$ cd git_challenge
+
+araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/araji/git_challenge/.git/
+
+araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
+$ git add hello_world.txt
+
+araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main (root-commit) b4e1000] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
