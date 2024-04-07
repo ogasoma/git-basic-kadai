@@ -1,25 +1,11 @@
-
-araji@DESKTOP-5F22K6I MINGW64 ~
-$ mkdir git_challenge
-
-araji@DESKTOP-5F22K6I MINGW64 ~
-$ cd git_challenge
-
-araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge
-$ git init
-Initialized empty Git repository in C:/Users/araji/git_challenge/.git/
-
-araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
-$ git add hello_world.txt
-
-araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
-$ git commit -m "日本語訳を追加"
-[main (root-commit) b4e1000] 日本語訳を追加
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 hello_world.txt
-
-araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
-$ git commit -m "hello_world.txtを追加"
+PS C:\Users\araji> cd git_challenge
+PS C:\Users\araji\git_challenge> git add git_challenge
+fatal: pathspec 'git_challenge' did not match any files
+PS C:\Users\araji\git_challenge> git add hello_world.txt                                
+PS C:\Users\araji\git_challenge> git commit -m "1回"                           
+[main 0d85963] 1蝗
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\araji\git_challenge> git commit -m "2回"
 On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -27,14 +13,21 @@ Changes not staged for commit:
         modified:   hello_world.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\araji\git_challenge> git log
+commit 0d8596380a3031b41484a25b7dd23b87fd6d40e9 (HEAD -> main)
+Author: ogasoma <oga_soma@yahoo.co.jp>
+Date:   Sun Apr 7 14:05:33 2024 +0900
 
-araji@DESKTOP-5F22K6I MINGW64 ~/git_challenge (main)
-$ git status
-On branch main
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-        modified:   hello_world.txt
+    1回
 
-no changes added to commit (use "git add" and/or "git commit -a")
+commit 89e8a8ec1b58c7f69b836ad108fc8540f5799f04
+Author: ogasoma <oga_soma@yahoo.co.jp>
+Date:   Sun Apr 7 13:44:55 2024 +0900
 
+    s最初のコミット
+
+commit f5e5ce885c602c21b0ca4da30fb1328ff05bcd4d
+Author: ogasoma <oga_soma@yahoo.co.jp>
+Date:   Sun Apr 7 13:39:21 2024 +0900
+
+    最初のコミット
