@@ -23,3 +23,8 @@ Author: ogasoma <oga_soma@yahoo.co.jp>
 Date:   Sun Apr 7 16:35:31 2024 +0900
 
     Hello,world!
+
+
+PS C:\Users\araji\git_challenge> git log --oneline
+8a170a6 (HEAD -> main) こんにちは、世界!
+46f85fc Hello,world!
